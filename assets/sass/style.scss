@@ -8,7 +8,6 @@
 @include fontFamily('Roboto', 'Regular');
 
 body {
-	// max-width: 1300px;
 	background-color: #fff;
 }
 .sec-title {
@@ -42,9 +41,6 @@ body {
 	cursor: pointer;
 }
 /*Start Header*/
-.navbar {
-	background: #f38181;
-}
 .hero-header {
 	background: url('../images/bg-header.jpg') no-repeat center center / cover;
 	height: 100vh;
@@ -84,16 +80,6 @@ body {
 .hero-title {
 	@include fontSize(110);
 	position: relative;
-	// &::before {
-	// 	content: '';
-	// 	position: absolute;
-	// 	width: 10%;
-	// 	height: 2px;
-	// 	bottom: -10%;
-	// 	left: 50%;
-	// 	transform: translateX(-50%);
-	// 	background-color: rgb(255, 255, 255);
-	// }
 }
 .hero-subtitle {
 	@include fontSize(55);
@@ -508,11 +494,9 @@ body {
 	font-size: 15px;
 	height: 46px;
 	padding: 10px 16px;
-	// width: 69%;
 }
 .subBtn {
 	height: 46px;
-	// width: 29%;
 	border: none;
 }
 .footerB_data {
