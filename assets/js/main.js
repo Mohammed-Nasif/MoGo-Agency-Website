@@ -23,7 +23,7 @@ window.onscroll = function () {
 	} else {
 		btn.classList.remove('show');
 	}
-	if (window.scrollY > 50) {
+	if (window.scrollY > 100) {
 		nav.style.backgroundColor = "#f38181";
 	} else {
 		nav.style.backgroundColor = 'transparent';
